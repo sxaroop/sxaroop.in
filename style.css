@@ -1,0 +1,139 @@
+/* Created by Sxaroop Using HTML and CSS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f8f9fa;
+}
+
+/* Header */
+
+.header{
+    width:100%;
+    height:60px;
+    background:#ffffff;
+    border-bottom:1px solid #e5e7eb;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+}
+
+/* Logo */
+.logo{
+    font-size:22px;
+    font-weight:700;
+    color:#111827;
+    letter-spacing:1px;
+}
+
+/* Social Icons */
+.social-links{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.social-links a{
+    font-size:22px;
+    text-decoration:none;
+    transition:0.3s ease;
+}
+
+/* Instagram */
+.social-links a:nth-child(1){
+    color:#E4405F;
+}
+
+/* YouTube */
+.social-links a:nth-child(2){
+    color:#FF0000;
+}
+
+/* GitHub */
+.social-links a:nth-child(3){
+    color:#000000;
+}
+
+/* LinkedIn */
+.social-links a:nth-child(4){
+    color:#0A66C2;
+}
+
+/* Snapchat Emoji */
+.social-links a:nth-child(5){
+    font-size:20px;
+}
+
+.social-links a:hover{
+    transform:translateY(-2px);
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:#6b7280;
+    border-top:1px solid #e5e7eb;
+    background:#fff;
+}
+
+.about {
+    /* max-width: 800px; */
+    margin: 40px auto;
+    padding: 0 45px;
+    line-height: 1.8;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+/* .section-line{
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #cfcfcf,
+        transparent
+    );
+    margin: 40px 0;
+} */
+.divider{
+    display:flex;
+    align-items:center;
+    margin:40px 0;
+}
+
+.divider::before,
+.divider::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:#ddd;
+}
+
+.divider span{
+    padding:0 15px;
+    color:#666;
+    font-size:14px;
+    font-weight:500;
+}
+a{
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover{
+    color: #004499;
+}
